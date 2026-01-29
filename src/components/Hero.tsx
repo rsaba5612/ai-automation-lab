@@ -51,13 +51,17 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8 py-6 group">
-              Request Free Demo
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6">
-              Contact Today
-            </Button>
+            <a href="https://wa.me/923296276461" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="text-lg px-8 py-6 group w-full">
+                Request Free Demo
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
+            <a href="https://wa.me/923296276461" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="text-lg px-8 py-6 w-full">
+                Contact Today
+              </Button>
+            </a>
           </div>
 
           {/* Price Tag */}
