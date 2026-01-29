@@ -51,13 +51,13 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://wa.me/923296276461" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=923296276461&text=Hi%2C%20I%27m%20interested%20in%20the%20SabLearn%20Agents%20course!" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="text-lg px-8 py-6 group w-full">
                 Request Free Demo
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>
-            <a href="https://wa.me/923296276461" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=923296276461&text=Hi%2C%20I%20want%20to%20contact%20SabLearn%20Agents!" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="text-lg px-8 py-6 w-full">
                 Contact Today
               </Button>
