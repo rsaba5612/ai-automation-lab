@@ -600,3 +600,173 @@ a:hover {
 .hover\:translate-x-1:hover {
   transform: translateX(0.25rem);
 }
+
+/* ===== Mobile Menu ===== */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: hsl(var(--foreground));
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+}
+
+/* ===== Card Icon ===== */
+.card-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: hsl(var(--primary) / 0.1);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* ===== Pricing Styles ===== */
+.pricing-card {
+  position: relative;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 20px 40px -10px hsl(var(--primary) / 0.2);
+}
+
+.pricing-featured {
+  border: 2px solid hsl(var(--primary));
+  background: linear-gradient(to bottom, hsl(var(--primary) / 0.05), hsl(var(--card)));
+}
+
+.pricing-badge {
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.price {
+  margin: 1rem 0;
+}
+
+.price-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+}
+
+.price-period {
+  color: hsl(var(--muted-foreground));
+  font-size: 0.875rem;
+  margin-left: 0.25rem;
+}
+
+.pricing-features {
+  list-style: none;
+  margin: 1.5rem 0;
+}
+
+.pricing-features li {
+  padding: 0.5rem 0;
+  color: hsl(var(--muted-foreground));
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.pricing-features li:last-child {
+  border-bottom: none;
+}
+
+/* ===== FAQ Styles ===== */
+.faq-list {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq-question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: hsl(var(--foreground));
+}
+
+.faq-answer {
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 0;
+}
+
+/* ===== Contact CTA ===== */
+.contact-cta {
+  text-align: center;
+}
+
+/* ===== Neon Glow Effects ===== */
+.btn-primary {
+  box-shadow: 0 0 20px hsl(var(--primary) / 0.4);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 30px hsl(var(--primary) / 0.6);
+}
+
+.gradient-text {
+  text-shadow: 0 0 40px hsl(var(--primary) / 0.5);
+}
+
+/* ===== WordPress Specific ===== */
+.wp-block-button__link {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+}
+
+.wp-block-button__link:hover {
+  background-color: hsl(var(--primary) / 0.9);
+}
+
+/* Screen Reader Text */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+/* WordPress Admin Bar Spacing */
+body.admin-bar .header {
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.admin-bar .header {
+    top: 46px;
+  }
+}
