@@ -1,7 +1,7 @@
 <?php
 /**
  * Front Page Template
- *
+ * 
  * @package SabLearn_Agents
  */
 
@@ -9,28 +9,52 @@ get_header();
 ?>
 
 <!-- Hero Section -->
-<section class="hero">
+<section class="hero" id="home">
     <div class="hero-bg">
         <div class="hero-bg-circle hero-bg-circle-1"></div>
         <div class="hero-bg-circle hero-bg-circle-2"></div>
     </div>
     
     <div class="hero-content">
+        <!-- Badge -->
         <div class="hero-badge">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+            <svg class="hero-badge-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
             </svg>
-            <span>🚀 Limited Time Offer - 50% OFF</span>
+            <span>100% Practical Learning</span>
         </div>
-        
-        <h1>Master <span class="gradient-text">AI Agents</span> & No-Code Automation</h1>
-        
+
+        <!-- Main Heading -->
+        <h1>
+            Master <span class="text-primary">AI Agents</span> &<br>
+            <span class="gradient-text">No-Code Automation</span>
+        </h1>
+
+        <!-- Subheading -->
         <p class="hero-subtitle">
-            Learn Make.com, n8n, and AI Agent frameworks with 100% practical learning. 
-            Build real-world automations and get lifetime mentorship support.
+            Learn Make.com, n8n, and AI Agent frameworks from scratch. Build real-world automation 
+            solutions and start your freelancing journey with <strong>Lifetime Mentorship</strong>.
         </p>
-        
+
+        <!-- Stats -->
         <div class="hero-stats">
+            <div class="hero-stat">
+                <svg class="hero-stat-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 8V4H8"/>
+                    <rect width="16" height="12" x="4" y="8" rx="2"/>
+                    <path d="M2 14h2"/>
+                    <path d="M20 14h2"/>
+                    <path d="M15 13v2"/>
+                    <path d="M9 13v2"/>
+                </svg>
+                <span>AI Agent Frameworks</span>
+            </div>
+            <div class="hero-stat">
+                <svg class="hero-stat-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+                <span>Make.com & n8n</span>
+            </div>
             <div class="hero-stat">
                 <svg class="hero-stat-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
@@ -38,58 +62,85 @@ get_header();
                     <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
                     <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
-                <span>500+ Students</span>
-            </div>
-            <div class="hero-stat">
-                <svg class="hero-stat-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"/>
-                    <polyline points="12 6 12 12 16 14"/>
-                </svg>
-                <span>50+ Hours Content</span>
-            </div>
-            <div class="hero-stat">
-                <svg class="hero-stat-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
-                    <path d="m9 12 2 2 4-4"/>
-                </svg>
-                <span>Lifetime Access</span>
+                <span>Lifetime Support</span>
             </div>
         </div>
-        
+
+        <!-- CTA Buttons -->
         <div class="hero-buttons">
-            <a href="#enroll" class="btn btn-primary btn-lg">
-                Enroll Now
+            <a href="https://api.whatsapp.com/send?phone=923296276461&text=Hi%2C%20I%27m%20interested%20in%20the%20SabLearn%20Agents%20course!" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                Request Free Demo
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14"/>
                     <path d="m12 5 7 7-7 7"/>
                 </svg>
             </a>
-            <a href="#curriculum" class="btn btn-outline btn-lg">
-                View Curriculum
+            <a href="https://api.whatsapp.com/send?phone=923296276461&text=Hi%2C%20I%20want%20to%20contact%20SabLearn%20Agents!" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+                Contact Today
             </a>
         </div>
-        
+
+        <!-- Price Tag -->
         <div class="hero-price">
-            <span class="hero-price-label">Starting at</span>
-            <span class="hero-price-value">PKR 15,000</span>
+            <span class="hero-price-label">Starting at just</span>
+            <span class="hero-price-value">PKR 10,000</span>
         </div>
     </div>
 </section>
 
 <!-- Services Section -->
-<section id="services" class="section">
+<section class="section services-section" id="services">
     <div class="container">
         <div class="section-header">
             <span class="section-badge">What You'll Learn</span>
-            <h2 class="section-title">Master These Tools</h2>
-            <p class="section-subtitle">Comprehensive training on the most in-demand automation tools</p>
+            <h2 class="section-title">
+                Complete <span class="text-primary">Course Modules</span>
+            </h2>
+            <p class="section-subtitle">
+                A comprehensive curriculum designed for beginners to advanced learners. 
+                Every module includes hands-on projects and real-world applications.
+            </p>
         </div>
-        
+
         <div class="grid grid-3">
-            <div class="card">
+            <!-- Service 1 -->
+            <div class="card service-card">
                 <div class="card-header">
                     <div class="card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="hsl(270, 100%, 65%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Make.com Mastery</h3>
+                </div>
+                <div class="card-content">
+                    <p class="card-description">Learn to build powerful automated workflows connecting 1000+ apps. From simple automations to complex multi-step scenarios.</p>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="card service-card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">n8n Automation</h3>
+                </div>
+                <div class="card-content">
+                    <p class="card-description">Master the open-source automation tool. Self-host your workflows and create custom integrations with full control.</p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="card service-card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
                             <path d="M12 8V4H8"/>
                             <rect width="16" height="12" x="4" y="8" rx="2"/>
                             <path d="M2 14h2"/>
@@ -98,46 +149,69 @@ get_header();
                             <path d="M9 13v2"/>
                         </svg>
                     </div>
-                    <h3 class="card-title">Make.com Mastery</h3>
+                    <h3 class="card-title">AI Agent Development</h3>
                 </div>
                 <div class="card-content">
-                    <p class="card-description">Build complex automations with visual workflows. Connect 1000+ apps without code.</p>
+                    <p class="card-description">Build intelligent AI agents that can research, analyze, and execute tasks autonomously using cutting-edge frameworks.</p>
                 </div>
             </div>
-            
-            <div class="card">
+
+            <!-- Service 4 -->
+            <div class="card service-card">
                 <div class="card-header">
                     <div class="card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="hsl(270, 100%, 65%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="3"/>
-                            <path d="M12 1v4"/>
-                            <path d="M12 19v4"/>
-                            <path d="m4.6 4.6 2.8 2.8"/>
-                            <path d="m16.6 16.6 2.8 2.8"/>
-                            <path d="M1 12h4"/>
-                            <path d="M19 12h4"/>
-                            <path d="m4.6 19.4 2.8-2.8"/>
-                            <path d="m16.6 7.4 2.8-2.8"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/>
+                            <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/>
+                            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"/>
+                            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375"/>
+                            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"/>
+                            <path d="M3.477 10.896a4 4 0 0 1 .585-.396"/>
+                            <path d="M19.938 10.5a4 4 0 0 1 .585.396"/>
+                            <path d="M6 18a4 4 0 0 1-1.967-.516"/>
+                            <path d="M19.967 17.484A4 4 0 0 1 18 18"/>
                         </svg>
                     </div>
-                    <h3 class="card-title">n8n Automation</h3>
+                    <h3 class="card-title">ChatGPT & AI Integration</h3>
                 </div>
                 <div class="card-content">
-                    <p class="card-description">Self-hosted workflow automation. Full control over your data and processes.</p>
+                    <p class="card-description">Integrate OpenAI, Claude, and other AI models into your automations. Create AI-powered solutions for real clients.</p>
                 </div>
             </div>
-            
-            <div class="card">
+
+            <!-- Service 5 -->
+            <div class="card service-card">
                 <div class="card-header">
                     <div class="card-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="hsl(270, 100%, 65%)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+                            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
+                            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
                         </svg>
                     </div>
-                    <h3 class="card-title">AI Agent Frameworks</h3>
+                    <h3 class="card-title">Freelancing Blueprint</h3>
                 </div>
                 <div class="card-content">
-                    <p class="card-description">Build intelligent AI agents using LangChain, AutoGPT, and custom frameworks.</p>
+                    <p class="card-description">Learn how to find clients, price your services, and deliver professional automation solutions on platforms like Upwork & Fiverr.</p>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="card service-card">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Lifetime Mentorship</h3>
+                </div>
+                <div class="card-content">
+                    <p class="card-description">Get unlimited access to our community, weekly Q&A sessions, and one-on-one guidance whenever you're stuck.</p>
                 </div>
             </div>
         </div>
@@ -145,122 +219,146 @@ get_header();
 </section>
 
 <!-- Pricing Section -->
-<section id="pricing" class="section bg-muted">
+<section class="section" id="pricing">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">Pricing</span>
-            <h2 class="section-title">Choose Your Plan</h2>
-            <p class="section-subtitle">Flexible pricing for every learning journey</p>
+            <span class="section-badge">Simple Pricing</span>
+            <h2 class="section-title">
+                One Price, <span class="text-primary">Lifetime Value</span>
+            </h2>
+            <p class="section-subtitle">
+                No hidden fees. No monthly subscriptions. Just one investment in your future.
+            </p>
         </div>
-        
-        <div class="grid grid-3">
-            <div class="card pricing-card">
-                <div class="card-header">
-                    <h3 class="card-title">Basic</h3>
-                    <div class="price">
-                        <span class="price-value">PKR 15,000</span>
-                        <span class="price-period">one-time</span>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <ul class="pricing-features">
-                        <li>✓ Make.com Course</li>
-                        <li>✓ 20+ Hours Content</li>
-                        <li>✓ Community Access</li>
-                        <li>✓ Certificate</li>
-                    </ul>
-                    <a href="#enroll" class="btn btn-outline" style="width: 100%;">Get Started</a>
-                </div>
-            </div>
-            
+
+        <div class="pricing-wrapper">
             <div class="card pricing-card pricing-featured">
-                <div class="pricing-badge">Most Popular</div>
-                <div class="card-header">
-                    <h3 class="card-title">Pro Bundle</h3>
-                    <div class="price">
-                        <span class="price-value">PKR 35,000</span>
-                        <span class="price-period">one-time</span>
+                <!-- Badge -->
+                <div class="pricing-badge-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m2 4 3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14"/>
+                    </svg>
+                    Best Value
+                </div>
+
+                <div class="card-header text-center">
+                    <!-- Stars -->
+                    <div class="pricing-stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#eab308" stroke="#eab308" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3 class="card-title">Complete Course Bundle</h3>
+                    <p class="card-description">Everything you need to become an automation expert</p>
+                    
+                    <!-- Price -->
+                    <div class="pricing-price">
+                        <div class="pricing-original">
+                            <span class="price-strikethrough">PKR 25,000</span>
+                            <span class="price-discount-badge">60% OFF</span>
+                        </div>
+                        <div class="price-main">PKR 10,000</div>
+                        <p class="price-note">One-time payment • Lifetime access</p>
                     </div>
                 </div>
+
                 <div class="card-content">
-                    <ul class="pricing-features">
-                        <li>✓ All Courses Included</li>
-                        <li>✓ 50+ Hours Content</li>
-                        <li>✓ 1-on-1 Mentorship</li>
-                        <li>✓ Priority Support</li>
-                        <li>✓ Real Projects</li>
+                    <!-- Features List -->
+                    <ul class="pricing-features-list">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Complete Make.com & n8n Training</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> AI Agent Development Modules</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> ChatGPT & OpenAI Integration</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Freelancing Blueprint & Templates</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Real Client Project Walkthroughs</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Lifetime Access to All Content</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Future Course Updates Included</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Private Community Access</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Weekly Live Q&A Sessions</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Lifetime Mentorship Support</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Completion Certificate</li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> 1-on-1 Support When Stuck</li>
                     </ul>
-                    <a href="#enroll" class="btn btn-primary" style="width: 100%;">Get Pro Access</a>
+
+                    <!-- CTA Button -->
+                    <a href="https://api.whatsapp.com/send?phone=923296276461&text=Hi%2C%20I%20want%20to%20enroll%20in%20SabLearn%20Agents%20course!" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                        Get Started Today
+                    </a>
+
+                    <!-- Trust Badge -->
+                    <p class="trust-badge">
+                        ✓ Secure payment • ✓ Instant access • ✓ 7-day money-back guarantee
+                    </p>
                 </div>
             </div>
-            
-            <div class="card pricing-card">
-                <div class="card-header">
-                    <h3 class="card-title">Enterprise</h3>
-                    <div class="price">
-                        <span class="price-value">Custom</span>
-                        <span class="price-period">contact us</span>
-                    </div>
-                </div>
-                <div class="card-content">
-                    <ul class="pricing-features">
-                        <li>✓ Team Training</li>
-                        <li>✓ Custom Curriculum</li>
-                        <li>✓ Dedicated Support</li>
-                        <li>✓ On-site Training</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-outline" style="width: 100%;">Contact Us</a>
-                </div>
-            </div>
+        </div>
+
+        <!-- Trust Elements -->
+        <div class="text-center mt-8">
+            <p class="text-muted">
+                Trusted by <strong>100+ students</strong> across Pakistan
+            </p>
         </div>
     </div>
 </section>
 
 <!-- FAQ Section -->
-<section id="faq" class="section">
+<section class="section faq-section" id="faq">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">FAQ</span>
-            <h2 class="section-title">Frequently Asked Questions</h2>
+            <span class="section-badge">Got Questions?</span>
+            <h2 class="section-title">
+                Frequently Asked <span class="text-primary">Questions</span>
+            </h2>
+            <p class="section-subtitle">
+                Everything you need to know about the course, payment, and support.
+            </p>
         </div>
-        
+
         <div class="faq-list">
             <div class="faq-item">
-                <h4 class="faq-question">Do I need coding experience?</h4>
-                <p class="faq-answer">No! Our courses are designed for complete beginners. We focus on no-code and low-code solutions.</p>
+                <h4 class="faq-question">Do I need any coding experience to join this course?</h4>
+                <p class="faq-answer">Absolutely not! This course is designed for complete beginners. We focus on no-code tools like Make.com and n8n, which require zero programming knowledge. You'll learn everything step-by-step with practical examples.</p>
             </div>
+            
             <div class="faq-item">
-                <h4 class="faq-question">How long do I have access?</h4>
-                <p class="faq-answer">You get lifetime access to all course materials, including future updates.</p>
+                <h4 class="faq-question">What tools will I learn in this course?</h4>
+                <p class="faq-answer">You'll master Make.com (Integromat), n8n, AI agent frameworks, ChatGPT/OpenAI integration, and various automation tools. We also cover how to connect with 1000+ apps like Google Sheets, WhatsApp, Slack, Shopify, and more.</p>
             </div>
+            
             <div class="faq-item">
-                <h4 class="faq-question">Is there a refund policy?</h4>
-                <p class="faq-answer">Yes, we offer a 7-day money-back guarantee if you're not satisfied.</p>
+                <h4 class="faq-question">How is the 'Lifetime Mentorship' different from regular support?</h4>
+                <p class="faq-answer">Unlike one-time courses, we provide ongoing support forever. You get access to our private community, weekly live Q&A sessions, direct messaging with instructors, and help with your real client projects even after completing the course.</p>
             </div>
+            
             <div class="faq-item">
-                <h4 class="faq-question">Will I get a certificate?</h4>
-                <p class="faq-answer">Yes, you'll receive a certificate of completion for each course.</p>
+                <h4 class="faq-question">Can I start freelancing after this course?</h4>
+                <p class="faq-answer">Yes! We have a dedicated module on freelancing that covers finding clients on Upwork, Fiverr, and LinkedIn. Many of our students land their first automation gig within 2-3 weeks of completing the course.</p>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="section bg-muted">
-    <div class="container">
-        <div class="section-header">
-            <span class="section-badge">Contact</span>
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="section-subtitle">Have questions? We're here to help!</p>
-        </div>
-        
-        <div class="contact-cta">
-            <a href="https://wa.me/923001234567" class="btn btn-primary btn-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
-                Chat on WhatsApp
-            </a>
+            
+            <div class="faq-item">
+                <h4 class="faq-question">What is the course duration and format?</h4>
+                <p class="faq-answer">The core curriculum takes 4-6 weeks to complete at your own pace. All lessons are pre-recorded video tutorials with downloadable resources. You also get lifetime access to all materials and future updates.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4 class="faq-question">Is the PKR 10,000 a one-time payment?</h4>
+                <p class="faq-answer">Yes, it's a one-time payment that gives you lifetime access to all course content, future updates, and our mentorship community. No hidden fees or monthly subscriptions.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4 class="faq-question">Do you provide certificates?</h4>
+                <p class="faq-answer">Yes! Upon completing all modules and projects, you'll receive a verified certificate from SabLearn Agents that you can add to your LinkedIn profile and resume.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4 class="faq-question">What if I get stuck on a project?</h4>
+                <p class="faq-answer">That's what our mentorship is for! Post your question in our community, join our weekly live sessions, or message our instructors directly. We're committed to helping you succeed.</p>
+            </div>
         </div>
     </div>
 </section>
